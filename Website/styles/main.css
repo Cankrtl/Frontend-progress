@@ -14,7 +14,10 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+
 }
+
+
 
 a{
     color: inherit;
@@ -25,7 +28,7 @@ a{
     position: fixed;
     background-color: var(--clr-orange);
     width: 100%;
-    border-bottom: 3px ridge black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #link{
@@ -42,12 +45,13 @@ a{
 }
 
 .nav-bar #link>:nth-child(1){
-    background-color: var(--clr-white);
-    color:var(--clr-black)
+   
+    color:var(--clr-white)
 }
 
 .nav-bar #link>:nth-child(1):hover{
-    background-color: var(--clr-gray);
+    background-color: var(--clr-white);
+    color: var(--clr-black);
 }
 
 .nav-bar #link>:nth-child(2):hover{
@@ -101,7 +105,7 @@ header{
     cursor: pointer;
 }
 
-.main{
+.anchor{
     padding: 60px 16px;
     display:flex ;
     justify-content: center;
@@ -142,36 +146,42 @@ header{
 
 
 .coffee{
-    display: flex;
-    flex-direction: row;
+  
+    padding: 16px 300px;
+    display:flex ;
+    justify-content: center;
     background-color: var(--clr-light-gray);
-    
-
+    gap: 50px;
 }
 
-.coffe-left  i{
+.coffe-left {
     color: var(--clr-orange);
     font-size: 200px;
-    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
-
 
 
 .text-right{
-  position:relative;
-    max-width: 1000px;
+   display: flex;
+   flex-direction: column;
+    gap: 30px;
  
     
 }
+
 .text-right h1{
     font-size: 40px;
-    margin: 20px;
+    
 }
 
 .text-right h3{
     font-size: 16px;
     font-weight: 400;
-    margin: 20px;
+    
    
 }
 
@@ -179,12 +189,9 @@ header{
 
 .text-right p{
     font-size: 16px;
-    margin: 20px;
+    
     color: var(--clr-gray);
 }
-
-
-
 
 
 #live-life{
@@ -196,12 +203,18 @@ header{
    font-weight: 400;
 }
 
-.footer{
+footer{
     padding: 60px 60px;
     text-align: center;
     font-size: 25px;
     color: var(--clr-gray);
 }
+
+
+footer p{
+    font-size: 15px;
+}
+
 
 #social-media{
     display: flex;
@@ -211,6 +224,3 @@ header{
    padding: 30px;
 }
 
-.footer p{
-    font-size: 15px;
-}
