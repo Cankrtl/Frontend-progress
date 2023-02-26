@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.container{
+    border: 2px solid red;
+}
+
+header{
+    border: 2px solid red;
+    padding: 40px;
+}
+
+main .box-1 {
+    border: 2px solid red;
+}
+
+main .box-2{
+    border: 2px solid red;
+}
+
+main .box-3{
+    border: 2px solid red;
+}
+
+main .box-4{
+    border: 2px solid red;
+}
+
+footer{
+    border: 2px solid red;
+    padding: 40px;
+}
+
+
+
+
+
+@media screen and (max-width:390px){
+   body{
+      flex-direction: column;
+   }
+}
+
+
+
