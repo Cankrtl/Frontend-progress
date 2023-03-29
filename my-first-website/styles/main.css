@@ -52,7 +52,7 @@ header .My-logo{
    background-color:#454545;
    top: 200px;
    padding-top: 10px;
-   padding-bottom: 10px ;
+   padding-bottom: 10px;
    padding-left: 40px;
    padding-right: 40px;
    font-size: xx-large;
@@ -73,6 +73,10 @@ main .section-portfolio header {
 .main-image {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .main-image:hover {
@@ -200,7 +204,7 @@ button {
     gap: 10px;
 }
 
-.load-Btn {
+.load-btn {
     position: relative;
     right: -42%;
     padding: 10px;
@@ -221,6 +225,7 @@ button {
 
 .nav-main a {
     display: flex;
+    z-index: 9999;
    gap: 10px;
     padding: 8px;
     
