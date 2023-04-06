@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
+#root{
+    border: 2px solid red;
+}
